@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">Evera</div>
+    <div class="container">
+        <h1>for <span class="highlight">ALL</span> your problems</h1>
+        <p class="subtitle">Get expert help instantly</p>
+        
+        <a href='ai-mode/index.html'><button class="ai-button" onclick=''>✨ EverAI</button></a>
+        
+        <div class="divider">
+        </div>
+        
+        <div class="human-buttons">
+            <a href="sarah/index.html">
+                <button class="human-button" onclick="handleHuman('Sarah')">Ask Sarah</button>
+            </a>
+            <a href="michael/index.html">
+                <button class="human-button" onclick="handleHuman('Michael')">Ask Michael</button>
+            </a>
+            <a href="emma/index.html">
+                <button class="human-button" onclick="handleHuman('Emma')">Ask Emma</button>
+            </a>
+            <a href="james/index.html">
+                <button class="human-button" onclick="handleHuman('James')">Ask James</button>
+            </a>
+            <a href="sofia/index.html">
+                <button class="human-button" onclick="handleHuman('Sofia')">Ask Sofia</button>
+            </a>
+            <a href="david/index.html">
+                <button class="human-button" onclick="handleHuman('David')">Ask David</button>
+            </a>
+        </div>
+    </div>
+    <a href='ai-off/index.html' target="_blank"><div class="ai-off">turn off AI</div></a>
+    <script>
+        function handleAIMode() {
+            alert('Launching AI Mode...');
+            // Add your AI mode navigation logic here
+        }
+
+        function handleHuman(name) {
+            alert(`Connecting you with ${name}...`);
+            // Add your human expert navigation logic here
+        }
+    </script>
+</body>
+</html>
